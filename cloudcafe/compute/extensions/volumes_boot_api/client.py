@@ -119,7 +119,6 @@ class VolumesBootClient(AutoMarshallingHTTPClient):
                             requestslib_kwargs=requestslib_kwargs)
         return resp
 
-
     def create_server_virt2837(self, name, flavor_ref, block_device_mapping_v1,
                       max_count=None, min_count=None, networks=None,
                       image_ref=None, personality=None, user_data=None,

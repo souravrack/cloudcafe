@@ -126,8 +126,6 @@ class CreateServerFromVolume(AutoMarshallingModel):
         element = self._set_xml_etree_element(element, elements_dict)
         return ''.join([Constants.XML_HEADER, ET.tostring(element)])
 
-
-
 class CreateServerFromVolumeVirt2837(AutoMarshallingModel):
 
     def __init__(self, name, flavor_ref, block_device_mapping,
